@@ -1,6 +1,4 @@
-import java.io.IOException;
 import java.util.ArrayList;
-import java.util.Collections;
 import java.util.HashMap;
 import java.util.List;
 
@@ -11,9 +9,6 @@ import org.apache.http.client.methods.HttpPost;
 import org.apache.http.entity.StringEntity;
 import org.apache.http.impl.client.HttpClientBuilder;
 import org.apache.http.message.BasicHeader;
-import org.apache.http.util.EntityUtils;
-
-import com.sun.xml.internal.bind.v2.runtime.NameList;
 
 public class HttpUtility {
     public HttpClient setClientHeader( HashMap<String, String> headerMap ){

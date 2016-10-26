@@ -1,9 +1,7 @@
 import java.io.BufferedReader;
-import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
-import java.io.InputStreamReader;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.HashMap;
@@ -14,7 +12,6 @@ import org.atilika.kuromoji.Tokenizer;
 
 import com.data.Config;
 import com.data.ResponseData;
-import com.data.Results;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.opencsv.CSVReader;
 

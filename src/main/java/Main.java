@@ -1,22 +1,9 @@
-import java.io.ByteArrayOutputStream;
-import java.io.InputStream;
 import java.nio.charset.StandardCharsets;
 import java.util.ArrayList;
 import java.util.HashMap;
-import java.util.List;
 
-import org.apache.http.Header;
-import org.apache.http.HttpEntity;
 import org.apache.http.HttpResponse;
-import org.apache.http.NameValuePair;
 import org.apache.http.client.HttpClient;
-import org.apache.http.client.config.RequestConfig;
-import org.apache.http.client.entity.UrlEncodedFormEntity;
-import org.apache.http.client.methods.HttpPost;
-import org.apache.http.entity.StringEntity;
-import org.apache.http.impl.client.HttpClientBuilder;
-import org.apache.http.message.BasicHeader;
-import org.apache.http.message.BasicNameValuePair;
 import org.apache.http.util.EntityUtils;
 
 import com.data.Config;
